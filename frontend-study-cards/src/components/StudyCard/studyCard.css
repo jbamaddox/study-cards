@@ -1,0 +1,76 @@
+.StudySession-StudyCard {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.StudySession-StudyCard-Question {
+    width: 60%;
+    margin-left: 20%;
+    background-color: #EEEEEE;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px #222222;
+
+}
+
+
+.StudySession-StudyCard-Answer-Hide {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.StudySession-StudyCard-Answer-Show {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.StudySession-StudyCard-Answer-Button-Show {
+    width: 60%;
+    min-width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 15px;
+    transition: .15s;
+
+}
+
+.StudySession-StudyCard-Answer-Button-Hide {
+    width: 60%;
+    min-width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 15px;
+    transition: .15s;
+
+}
+
+.StudySession-StudyCard-Answer-Button-Show {
+    background-color: #DD4444;
+
+}
+
+.StudySession-StudyCard-Answer-Button-Hide {
+    background-color: #44BB44;
+}
+
+.StudySession-StudyCard-Answer-Button-Show:hover {
+    box-shadow: 0px 2px 6px #111111;
+}
+
+.StudySession-StudyCard-Answer-Button-Hide:hover {
+    box-shadow: 0px 2px 6px #111111;
+}

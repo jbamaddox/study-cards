@@ -1,0 +1,28 @@
+.EditData {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+.EditData-Main {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.EditData-Title-Input {
+    width: 80%;
+    min-width: 250px;
+
+}
+
+.EditData-Description-TextArea {
+    width: 80%;
+    min-width: 250px;
+
+}
+
+.EditData-NavButtons {
+    width: 100%;
+    margin-top: 50px;
+}

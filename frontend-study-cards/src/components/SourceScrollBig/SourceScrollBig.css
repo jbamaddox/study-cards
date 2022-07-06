@@ -1,0 +1,84 @@
+.SourceScrollBig {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    margin-top: 0px;
+
+}
+
+.SourceScrollBig-button {
+    background-color: #EEEEEE;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.SourceScrollBig-button:hover {
+    background-color: #DDDDDD;
+
+}
+
+.SourceScrollBig-item {
+    float: left;
+
+}
+
+.SourceScrollBig-button-image {
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+.SourceScrollBig-selector-group {
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.SourceScrollBig-selector-notSelected,
+.SourceScrollBig-selector-selected {
+    background-color: #EEEEEE;
+    color: #BBBBBB;
+    border: none;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    width: 20%;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+
+}
+
+.SourceScrollBig-selector-selected {
+    background-color: #DDDDDD;
+    color: #000000;
+    box-shadow: 0px 2px 3px 2px #BBBBBB;
+
+}
+
+.SourceScrollBig-selector-notSelected:hover {
+    background-color: #DDDDDD;
+    color: #999999;
+
+}
+
+.SourceScrollBig-button>p {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    float: left;
+    width: 60%;
+    text-align: left;
+    overflow: hidden;
+
+}

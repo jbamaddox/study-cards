@@ -1,0 +1,28 @@
+.EditCard {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+.EditCard-Main {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.EditCard-Question-TextArea {
+    width: 80%;
+    min-width: 250px;
+
+}
+
+.EditCard-Answer-TextArea {
+    width: 80%;
+    min-width: 250px;
+
+}
+
+.EditCard-NavButtons {
+    width: 100%;
+    margin-top: 50px;
+}

@@ -1,0 +1,20 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t jeremybamaddox/frontend-study-cards -f ./frontend-study-cards/Dockerfile.dev ./frontend-study-cards
+
+script:
+  - docker run -e CI=true jeremybamaddox/frontend-study-cards npm test 
+
+after_success:
+  - docker build -t jeremybamaddox/frontend-study-cards ./frontend-study-cards
+  - docker build -t jeremybamaddox/api-study-cards ./api-study-cards
+  - docker build -t jeremybamaddox/router-study-cards ./router-study-cards
+  # Log into docker cli
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  # Push built images to docker hub
+  - docker push jeremybamaddox/frontend-study-cards
+  - docker push jeremybamaddox/api-study-cards
+  - docker push jeremybamaddox/router-study-cards

@@ -1,0 +1,57 @@
+.SourceHeader {
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+}
+
+.SourceHeader-Button-UnSelected {
+    width: 10%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-width: 60px;
+    border-radius: 2px;
+    transition: .1s;
+    background-color: #FFFFFF;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: outset;
+    border-bottom-color: #DD1111;
+    border-bottom-width: 1px;
+    color: #888888;
+}
+
+.SourceHeader-Button-UnSelected:hover {
+    color: #000000;
+}
+
+
+.SourceHeader-Button-Selected {
+    width: 10%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-width: 60px;
+    border-radius: 2px;
+    transition: .1s;
+    background-color: #FFFFFF;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: outset;
+    border-bottom-color: #DD1111;
+    border-bottom-width: 3px;
+    color: #000000;
+}

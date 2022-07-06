@@ -1,0 +1,89 @@
+.header {
+    position: fixed;
+    top: 0px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    padding-top: 5px;
+    height: 45px;
+    background-color: #DD1111;
+    box-shadow: 0px 4px 8px #333;
+    opacity: 90%;
+    color: white;
+
+}
+
+.header-logo {
+    float: left;
+    width: 20%;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px #000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: .25s;
+
+}
+
+.header-logo:hover {
+    padding-top: 4px;
+    padding-bottom: 0px;
+    box-shadow: 0px 2px 4px #000;
+}
+
+
+.header-app-name {
+    float: left;
+    padding-left: 10px;
+    width: 30%;
+    min-width: 150px;
+    margin-right: 10px;
+    max-width: 160px;
+    font-size: x-large;
+    text-align: left;
+
+}
+
+.header-NavTo-Button-NotSelected {
+    font-size: .75em;
+    float: left;
+    text-align: center;
+    width: auto;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #DD1111;
+    color: #DDD;
+    transition: .15s;
+}
+
+.header-NavTo-Button-NotSelected:hover {
+    color: #FFF;
+
+}
+
+.header-NavTo-Button-Selected {
+    font-size: .75em;
+    float: left;
+    text-align: center;
+    width: auto;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #DD1111;
+    color: #FFFFFF;
+    transition: .15s;
+    border-bottom-style: inset;
+    border-bottom-color: #FFFFFF;
+    border-bottom-width: 3px;
+}

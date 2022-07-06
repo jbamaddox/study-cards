@@ -1,0 +1,28 @@
+.AddData {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+.AddData-Main {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.AddData-Title-Input {
+    width: 80%;
+    min-width: 250px;
+
+}
+
+.AddData-Description-TextArea {
+    width: 80%;
+    min-width: 250px;
+
+}
+
+.AddData-NavButtons {
+    width: 100%;
+    margin-top: 50px;
+}

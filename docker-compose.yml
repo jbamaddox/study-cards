@@ -1,0 +1,29 @@
+version: '3'
+services:
+  api:
+    build:
+      context: ./api-study-cards
+      dockerfile: Dockerfile
+    volumes:
+      - /home/node/app/node_modules
+      - ./api-study-cards:/home/node/app
+    environment:
+      - MONGO_USER=$MONGO_USER
+      - MONGO_PW=$MONGO_PW
+      - MONGO_CLUSTER=$MONGO_CLUSTER
+  client:
+    build:
+      context: ./frontend-study-cards
+      dockerfile: Dockerfile
+    volumes:
+      - /home/node/app/node_modules
+      - ./frontend-study-cards:/home/node/app
+  router:
+    depends_on:
+      - api
+      - client
+    build:
+      context: ./router-study-cards
+      dockerfile: Dockerfile
+    ports:
+      - '9090:5000'
