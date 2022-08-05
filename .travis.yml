@@ -18,3 +18,15 @@ after_success:
   - docker push jeremybamaddox/frontend-study-cards
   - docker push jeremybamaddox/api-study-cards
   - docker push jeremybamaddox/router-study-cards
+
+deploy:
+  provider: elasticbeanstalk
+  region: us-east-2
+  app: study-cards
+  env: Studycards-env
+  bucketname: elasticbeanstalk-us-east-2-162194444266
+  bucket-path: docker-study-cards
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
