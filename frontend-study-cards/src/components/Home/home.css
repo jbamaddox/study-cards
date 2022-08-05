@@ -5,4 +5,6 @@
 
 }
 
-.navigateToStudySession-button {}
+.navigateToStudySession-button {
+    transition: all;
+}
