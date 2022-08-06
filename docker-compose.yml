@@ -26,4 +26,4 @@ services:
       context: ./router-study-cards
       dockerfile: Dockerfile
     ports:
-      - '9090:5000'
+      - '80:5000'
